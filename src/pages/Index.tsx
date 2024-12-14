@@ -17,7 +17,7 @@ const Index = () => {
 
   return (
     <div className="flex flex-col h-screen bg-gray-50">
-      <div className="flex-1 overflow-y-auto space-y-4 p-4 max-w-3xl mx-auto w-full">
+      <div className="flex-1 overflow-y-auto space-y-4 p-4 max-w-3xl mx-auto w-full scrollbar-hide">
         {messages.map((msg, index) => (
           <ChatMessage
             key={index}
